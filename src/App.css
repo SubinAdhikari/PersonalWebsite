@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.backgroundDiv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #1d8ba1; */
+    background: linear-gradient(#1d8ba1,#353838);
+    /* background-image:url('bgimage.jpg'); */
+}
+.profileDiv{
+    width: 30%;
+    height: 75vh;
+    background-color: #353838;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 2px #1d8ba1 solid;
+    /* margin-right: 2px; */
+
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+.page{
+    width: 55%;
+    height: 75vh;
+    background-color: #131414;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    /* overflow-y: auto; */
+}
+
+.menuDiv{
+    width: 7%;
+    height: 75vh;
+    border-radius: 20px;
+    background-color: #353838;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+    
+.grow:hover { 
+    transform: scale(1.1); 
+}
+.buttonHover:hover{
+    color: #1d8ba1;
+    
+}
+
+.occupationText:before{
+    content: '';
+    animation: animate infinite 8s;
+}
+@keyframes animate{
+    0%{
+        content: 'Web Developer';
+    }
+    40%{
+        content: 'React Developer';
+    }
+    80%{
+        content: 'Front-end Developer';
+    }
+    100%{
+        content: 'Designer';
+    }
+
+}
+.aboutDetails{
+    height: 77%;
+    width: 98%;
+    /* background-color: tomato; */
+    /* overflow-y: scroll; */
+    margin-top: 10px;
+}
+.personal{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.description{
+    width: 57%;
+    height: 100%;
+    /* background-color: violet; */
+}
+.personalInfo{
+    width: 36%;
+    height: 100%;
+    /* background-color: yellow; */
+    padding-left: 30px;
+}
+.whatIDo{
+    width: 98%;
+    height: 40%;
+    margin-top: 25px;
+    /* background-color: teal; */
+    
+}
+.portfolioMainDiv{
+    width: 100%;
+    height:80%;
+    
+    /* background-color: royalblue; */
+    overflow-y: auto;
+}
+.row{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+}
+
+.projectImage{
+    width: 98%;
+    height: 98%;
+    border-bottom: 2px #1d8ba1 solid;
+    /* background-color: saddlebrown; */
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    /* background-color:  #1d8ba1; */
+    background: linear-gradient(#1d8ba1,#353838);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1025px) {
+  /* For mobile phones: */
+  .profileDiv{
+      /* width: 80%;
+      height: 100%;
+      border-radius: 0px; */
+      display:none;
+  }
+  .page{
+    width: 80%;
+    height: 99%;
+    border-radius: 0px;
+    display:block;
+    font-size: 10px;
+    border:2px #1d8ba1 solid;
+    overflow: auto;
+  }
+  .personal{
+    height: 40%;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background-color: red; */
+    display: block;
+}
+.description{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    border-bottom: 2px #1d8ba1 solid;
+    /* background-color: violet; */
+    
+}
+.description p,h3{
+    font-size: 12px;
+}
+.personalInfo{
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: block;
+    padding-left: 10px;
+    border-bottom: 2px #1d8ba1 solid;
+
+}
+.personalInfo p,h3{
+    font-size: 12px;
+}
+.whatIDo{
+    width: 100%;
+    height: 20%;
+    /* background-color: teal; */
+    margin-top:83%; 
+}
+.whatIDo p,h3{
+    font-size: 12px;
+}
+  .menuDiv{
+    font-size: small;
+    width: 20%;
+    height: 99vh;
+    margin-left: 0px;
+    border-radius: 0px;
+}
+
+.row{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background-color: red; */
+    height: 40%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.projectImage{
+    width: 100%;
+    height: 100%;
+    border-bottom: 0px #1d8ba1 solid;
+    /* background-color: saddlebrown; */
+}
+
+
+
+
+
+
+
+  }
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+    .profileDiv{
+        width: 30%;
+        height: 75vh;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-right: 1px white solid;
+    }
+    .page{
+        width: 55%;
+        height: 75vh;
+    }
+} */
