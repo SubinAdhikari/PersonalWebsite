@@ -6,7 +6,7 @@ import Menu from './Menu';
 const About = () =>{
     return(
         <>
-        <MyProfile/>
+        {/* <MyProfile/> */}
         {/* <MyDisplayPage text={"About Page"}/> */}
 
         <div className="page">
@@ -37,7 +37,7 @@ const About = () =>{
         </div>
 
 
-        <Menu />
+        {/* <Menu /> */}
         </>
     );
 }

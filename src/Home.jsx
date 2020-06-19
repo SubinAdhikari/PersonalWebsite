@@ -7,7 +7,7 @@ import Menu from './Menu';
 const Home = () =>{
     return(
         <>
-        <MyProfile/>
+        {/* <MyProfile/> */}
 
         {/* <MyDisplayPage text={"Home Page"} name={"Subin Adhikari"} occupation={"I am a"}/> */}
 
@@ -19,7 +19,7 @@ const Home = () =>{
 
 
 
-        <Menu />
+        {/* <Menu /> */}
         </>
     );
 }

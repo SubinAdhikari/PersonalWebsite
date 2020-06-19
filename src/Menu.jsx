@@ -9,11 +9,11 @@ const Menu = () =>{
     return(
         <>
         <div className="menuDiv">
-        <Link to="/"> <HomeOutlinedIcon  color="error" fontSize="large" style={{width:'100%',height:'15%',paddingTop:'10px',paddingBottom:'5px',borderBottom:'2px #1d8ba1 solid'}}/></Link>
-        <Link to="/About">  <PeopleAltOutlinedIcon  fontSize="large" color="error" style={{width:'100%',height:'15%',paddingTop:'10px',paddingBottom:'5px',borderBottom:'2px #1d8ba1 solid'}}/></Link>
-        <Link to="/Portfolio">  <NoteOutlinedIcon  fontSize="large" color="error" style={{width:'100%',height:'15%',paddingTop:'10px',paddingBottom:'5px',borderBottom:'2px #1d8ba1 solid'}}/></Link>
-        <Link to="/Contact">  <ContactMailOutlinedIcon  fontSize="large" color="error" style={{width:'100%',height:'15%',paddingTop:'10px',paddingBottom:'5px',borderBottom:'2px #1d8ba1 solid'}}/></Link>
-        <Link to="/Blog">  <MenuBookOutlinedIcon  fontSize="large" color="error" style={{width:'100%',height:'15%',paddingTop:'10px',paddingBottom:'5px',}}/></Link>
+        <Link to="/"> <HomeOutlinedIcon className="shrink" color="error" fontSize="large" style={{width:'100%',height:'15%',paddingTop:'10px',paddingBottom:'5px',borderBottom:'2px #1d8ba1 solid'}}/></Link>
+        <Link to="/About">  <PeopleAltOutlinedIcon className="shrink" fontSize="large" color="error" style={{width:'100%',height:'15%',paddingTop:'10px',paddingBottom:'5px',borderBottom:'2px #1d8ba1 solid'}}/></Link>
+        <Link to="/Portfolio">  <NoteOutlinedIcon className="shrink" fontSize="large" color="error" style={{width:'100%',height:'15%',paddingTop:'10px',paddingBottom:'5px',borderBottom:'2px #1d8ba1 solid'}}/></Link>
+        <Link to="/Contact">  <ContactMailOutlinedIcon className="shrink" fontSize="large" color="error" style={{width:'100%',height:'15%',paddingTop:'10px',paddingBottom:'5px',borderBottom:'2px #1d8ba1 solid'}}/></Link>
+        <Link to="/Blog">  <MenuBookOutlinedIcon className="shrink" fontSize="large" color="error" style={{width:'100%',height:'15%',paddingTop:'10px',paddingBottom:'5px',}}/></Link>
         </div>
         </>
     );
