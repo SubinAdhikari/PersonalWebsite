@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SubinAdhikari/PersonalWebsite/static/css/main.14699b3f.chunk.css",
+    "main.js": "/SubinAdhikari/PersonalWebsite/static/js/main.88d2718d.chunk.js",
+    "main.js.map": "/SubinAdhikari/PersonalWebsite/static/js/main.88d2718d.chunk.js.map",
+    "runtime-main.js": "/SubinAdhikari/PersonalWebsite/static/js/runtime-main.fe4c60fe.js",
+    "runtime-main.js.map": "/SubinAdhikari/PersonalWebsite/static/js/runtime-main.fe4c60fe.js.map",
+    "static/js/2.c7836a3f.chunk.js": "/SubinAdhikari/PersonalWebsite/static/js/2.c7836a3f.chunk.js",
+    "static/js/2.c7836a3f.chunk.js.map": "/SubinAdhikari/PersonalWebsite/static/js/2.c7836a3f.chunk.js.map",
+    "index.html": "/SubinAdhikari/PersonalWebsite/index.html",
+    "precache-manifest.c95dea6bc64e7a04abace23affc6750f.js": "/SubinAdhikari/PersonalWebsite/precache-manifest.c95dea6bc64e7a04abace23affc6750f.js",
+    "service-worker.js": "/SubinAdhikari/PersonalWebsite/service-worker.js",
+    "static/css/main.14699b3f.chunk.css.map": "/SubinAdhikari/PersonalWebsite/static/css/main.14699b3f.chunk.css.map",
+    "static/js/2.c7836a3f.chunk.js.LICENSE.txt": "/SubinAdhikari/PersonalWebsite/static/js/2.c7836a3f.chunk.js.LICENSE.txt",
+    "static/media/Pimage.jpg": "/SubinAdhikari/PersonalWebsite/static/media/Pimage.ceae9602.jpg",
+    "static/media/SubinResume.pdf": "/SubinAdhikari/PersonalWebsite/static/media/SubinResume.35946335.pdf",
+    "static/media/work1.PNG": "/SubinAdhikari/PersonalWebsite/static/media/work1.b236a7c8.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe4c60fe.js",
+    "static/js/2.c7836a3f.chunk.js",
+    "static/css/main.14699b3f.chunk.css",
+    "static/js/main.88d2718d.chunk.js"
+  ]
+}
