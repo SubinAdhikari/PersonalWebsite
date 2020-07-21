@@ -6,6 +6,9 @@ import {SocialMediaIconsReact} from 'social-media-icons-react';
 import SubinResume from './SubinResume.pdf';
 
 const MyProfile = () =>{
+    const date = new Date();
+    const year=date.getFullYear();
+    // console.log(year);
     return(
         <>
         <div className="profileDiv">
@@ -21,7 +24,7 @@ const MyProfile = () =>{
         
        <a href={SubinResume} style={{textDecoration:'none'}} target="_blank"> <Button variant="contained" className="buttonHover" style={{fontSize:'15px',fontWeight:'bold',marginTop:'20px',borderRadius:'20px',marginBottom:'20px'}}>Download CV</Button><br/></a>
         
-        <span style={{fontFamily:'sans-serif',color:'grey'}}>© 2020 All rights reserved</span>
+        <span style={{fontFamily:'sans-serif',color:'grey'}}>© {year} All rights reserved</span>
         </div> 
         </>
     );

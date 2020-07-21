@@ -6,6 +6,8 @@ import work1 from './work1.PNG';
 import PortCard from './PortCard';
 import Grid from '@material-ui/core/Grid';
 import DataOfPortfolio from './DataOfPortfolio';
+import NavBarMobile from './NavBarMobile';
+
 
 const Resume = () =>{
     return(
@@ -13,7 +15,8 @@ const Resume = () =>{
         {/* <MyProfile/> */}
         {/* <MyDisplayPage text={"Resume Page"}/> */}
         <div className="page">
-        <h1 style={{fontSize:'40px',color:'white',fontFamily:'Poppins',marginTop:'5%'}}>My Work <span style={{color:'#1d8ba1'}}>Portfolio</span></h1>     
+            <NavBarMobile/>
+        <h1 className="title" style={{fontSize:'40px',color:'white',fontFamily:'Poppins',marginTop:'5%'}}>My Work <span style={{color:'#1d8ba1'}}>Portfolio</span></h1>     
             <div className="portfolioMainDiv">
 
 

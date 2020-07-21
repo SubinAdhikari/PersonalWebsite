@@ -1,0 +1,95 @@
+nav{
+    position: fixed;
+    width: 320px;
+    height:100%;
+    left:-320px;
+    overflow: hidden;
+    /* background: #3DA89F; */
+    background: linear-gradient(#1d8ba1,#353838);
+
+    transition: .5s;
+    z-index: 9999; 
+}
+/* nav .brand{
+    position: absolute;
+    color: #2B4C8C;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 32px 40px;
+} */
+
+.hamburgerMenu label{
+    font-size: 35px;
+    color:white;
+margin-left: -320px;
+}
+
+
+nav label{
+    position: absolute;
+    right: 50px;
+    top: 35px;
+    padding: 5px 8px;
+    color:#2B4C8C;
+    font-size: 16px;
+    border: 2px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: .4s;
+
+}
+nav label:hover{
+    background-color: #2B4C8C;
+    color: #fff;
+}
+nav ul{
+    position: absolute;
+    top: 30px;
+}
+nav ul li{
+    padding: 20px 70px;
+    color:#8E68B1;
+    font-size: 17px;
+    font-weight: 700;
+    width: 320px;
+    margin-left: -50px;
+    opacity: 0;
+    cursor: pointer;
+    transform: .4s;
+}
+nav ul li:hover{
+    animation: hover .6s;
+}
+
+@keyframes hover{
+    50%{
+        transform: translateX(20px) scale(1.1);
+    }
+}
+
+nav ul li  i{
+    font-size: 24px;
+}
+nav ul li a{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    left: 80px;
+}
+input{
+    display: none !important;
+}
+
+/* input:checked ~ .threeLine{
+    opacity: 0;
+    pointer-events: none;
+} */
+
+input:checked ~ nav{
+    left: 0;
+}
+
+input:checked ~ nav ul li{
+    margin-left: 0;
+    opacity: 1;
+}

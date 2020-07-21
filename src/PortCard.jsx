@@ -21,10 +21,11 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
     marginBottom: '20px',
-    marginLeft:'40px',
-    marginRight:'20px'
+    marginLeft:'20px',
+    marginRight:'20px',
+    // backgroundColor:'red'
   },
-  media: {
+  media: { 
     height: 0,
     paddingTop: '56.25%', // 16:9
   },

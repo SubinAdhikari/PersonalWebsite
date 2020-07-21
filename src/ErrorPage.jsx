@@ -2,6 +2,7 @@ import React from 'react';
 import MyProfile from './MyProfile';
 import MyDisplayPage from './MyDisplayPage';
 import Menu from './Menu';
+import NavBarMobile from './NavBarMobile';
 
 
 const ErrorPage = () =>{
@@ -13,7 +14,8 @@ const ErrorPage = () =>{
 
 
         <div className="page">
-        <h1 style={{fontSize:'40px',color:'white',fontFamily:'Poppins',marginTop:'5%'}}>OOPS! <span style={{color:'#1d8ba1'}}>Page</span> Not found</h1>     
+        <NavBarMobile/>
+        <h1  style={{fontSize:'40px',color:'white',fontFamily:'Poppins',marginTop:'5%'}}>OOPS! <span style={{color:'#1d8ba1'}}>Page</span> Not found</h1>     
         </div>
 
 

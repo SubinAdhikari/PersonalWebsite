@@ -9,12 +9,13 @@ import Blog from './Blog';
 import ErrorPage from './ErrorPage';
 import Menu from './Menu';
 import MyProfile from './MyProfile';
-
+// import NavBarMobile from './NavBarMobile';
 
 const App = () =>{
 return(
   <>
-<div className="backgroundDiv">
+  {/* <NavBarMobile/> */}
+  <div className="backgroundDiv">
 <MyProfile/>
 <Switch>
   <Route path="/" exact component={Home} />

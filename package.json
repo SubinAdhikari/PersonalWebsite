@@ -1,5 +1,6 @@
 {
   "name": "myfirstwebsiteonreact",
+  "homepage": "https://SubinAdhikari.github.io/PersonalWebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
